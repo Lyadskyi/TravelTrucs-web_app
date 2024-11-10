@@ -1,9 +1,9 @@
-#root {
-  max-width: 1280px;
+/* #root {
+  max-width: 2280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
+} */
 /* 
 .logo {
   height: 6em;
@@ -40,3 +40,75 @@
 .read-the-docs {
   color: #888;
 } */
+
+/* App.css */
+
+/* Стилі для основного контейнера */
+/* body, */
+#root {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  position: absolute;
+  left: 64px;
+  top: 260px;
+}
+
+/* Фон для сторінки */
+.app-background {
+  background-image: url("./images/background/BGHome-TravelTrucks_desk.png");
+  background: rgba(0, 0, 0, 0.2),
+    url("./images/background/BGHome-TravelTrucks_desk.png");
+  background-size: cover; /* Масштабує зображення для покриття */
+  background-repeat: no-repeat; /* Запобігає повторенню */
+  background-position: center; /* Вирівнює зображення по центру */
+  height: 100vh;
+  width: 100%;
+}
+
+.title {
+  width: 571px;
+  height: 32px;
+  padding-bottom: 16px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 67%;
+  color: #f7f7f7;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: #f7f7f7;
+}
+
+.btn {
+  margin-top: 40px;
+  border: 2px solid transparent; /* Встановлення прозорого бордера */
+  border-radius: 200px;
+  width: 173px;
+  height: 56px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Плавна зміна фону */
+  background-color: #e44848;
+  color: #fff;
+}
+
+button:hover {
+  border: none; /* Прибирає бордер на ховері */
+  background-color: #d84343;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
