@@ -13,7 +13,7 @@ export default function Navigation() {
       <NavLink to="/" className={css.logo}>
         <img
           src="/Logo_TravelTrucks.png"
-          alt="Logo"
+          alt="logo"
           className={css.logoImage}
         />
       </NavLink>

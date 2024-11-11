@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import css from "./HomePage.module.css";
 
 export default function HomePage() {
@@ -9,7 +10,9 @@ export default function HomePage() {
           <h2 className={css.subtitle}>
             You can find everything you want in our catalog
           </h2>
-          <button className={css.btn}>View Now</button>
+          <Link to="/catalog">
+            <button className={css.btn}>View Now</button>
+          </Link>
         </div>
       </div>
     </>

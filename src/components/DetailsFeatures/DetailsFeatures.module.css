@@ -1,0 +1,9 @@
+.vehicleDetails {
+  position: absolute;
+  left: 64px;
+  top: 800px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #101828;
+}

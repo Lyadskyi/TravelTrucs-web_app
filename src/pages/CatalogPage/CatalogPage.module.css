@@ -1,0 +1,67 @@
+.location {
+  position: absolute;
+  left: 64px;
+  top: 120px;
+}
+
+.titleLocation {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #6c717b;
+}
+
+.geoLocation {
+  border-radius: 12px;
+  padding: 18px 218px 18px 20px;
+  margin-top: 8px;
+  width: 360px;
+  height: 56px;
+  background: #f7f7f7;
+}
+
+.filters {
+  position: absolute;
+  left: 64px;
+  top: 248px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #475467;
+}
+
+.equipment {
+  position: absolute;
+  left: 64px;
+  top: 304px;
+}
+
+.titleEquipment {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #101828;
+}
+
+.btn {
+  position: absolute;
+  left: 64px;
+  top: 616px;
+  /* top: 816px; */
+  margin-top: 40px;
+  border: 2px solid transparent;
+  border-radius: 200px;
+  width: 166px;
+  height: 56px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #e44848;
+  color: #fff;
+}
+
+button:hover {
+  border: none;
+  background-color: #d84343;
+}
