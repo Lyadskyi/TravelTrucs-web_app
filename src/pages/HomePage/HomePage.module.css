@@ -1,0 +1,52 @@
+.description {
+  position: absolute;
+  left: 64px;
+  top: 332px;
+}
+
+.appBackground {
+  background-image: url("../../images/background/BGHome-TravelTrucks_desk.png");
+  background: rgba(0, 0, 0, 0.2),
+    url("../../images/background/BGHome-TravelTrucks_desk.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 92vh;
+  width: 100%;
+}
+
+.title {
+  width: 571px;
+  height: 32px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 67%;
+  color: #f7f7f7;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  padding-top: 16px;
+  line-height: 133%;
+  color: #f7f7f7;
+}
+
+.btn {
+  margin-top: 40px;
+  border: 2px solid transparent;
+  border-radius: 200px;
+  width: 173px;
+  height: 56px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #e44848;
+  color: #fff;
+}
+
+button:hover {
+  border: none;
+  background-color: #d84343;
+}

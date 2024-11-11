@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  border-bottom: 1px solid #f2f4f7;
+  padding: 24px 64px;
+  width: 100%;
+  height: 72px;
+  background: #f7f7f7;
+}
+
+.logoImage {
+  padding-right: 450px;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #d84343;
+}
+
+.link {
+  display: inline-flex;
+  text-decoration: none;
+}
+
+.active {
+  color: #d84343;
+}
