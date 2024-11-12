@@ -1,5 +1,4 @@
-import DetailsFeatures from "../../components/DetailsFeatures/DetailsFeatures";
-
+import { NavLink } from "react-router-dom";
 import css from "./DetailsPage.module.css";
 
 export default function DetailsPage() {
@@ -45,7 +44,14 @@ export default function DetailsPage() {
         a comfortable journey, making it the perfect companion for those who
         value simplicity and functionality.
       </p>
-      <DetailsFeatures />
+      <div className={css.listNavLinks}>
+        <NavLink to="features" className={css.link}>
+          Features
+        </NavLink>
+        <NavLink to="reviews" className={css.link}>
+          Reviews
+        </NavLink>
+      </div>
     </>
   );
 }
