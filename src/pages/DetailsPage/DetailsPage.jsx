@@ -5,6 +5,20 @@ import css from "./DetailsPage.module.css";
 export default function DetailsPage() {
   return (
     <>
+      <div className={css.header}>
+        <h2 className={css.title}>Maverics</h2>
+        <div className={css.reviews}>
+          <svg width="16" height="16">
+            <use href="../../../public/images/icons/sprite.svg#icon-star_yellow"></use>
+          </svg>
+          <p className={css.descReviews}>4.4(2 Reviews)</p>
+          <svg width="16" height="16">
+            <use href="../../../public/images/icons/sprite.svg#icon-map"></use>
+          </svg>
+          <p className={css.descLocation}>Kyiv, Ukraine</p>
+        </div>
+        <h2 className={css.amount}>$8000.00</h2>
+      </div>
       <div className={css.container}>
         <img
           src="../../../public/images/details/InteriorCar-1_desk.jpg"
