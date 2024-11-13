@@ -16,6 +16,17 @@
   align-items: center;
 }
 
+.iconButton {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+}
+
 .descReviews {
   margin-left: 4px;
   margin-right: 16px;

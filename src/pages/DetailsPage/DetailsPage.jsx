@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import DetailsFeatures from "../../components/DetailsFeatures/DetailsFeatures";
+
 import css from "./DetailsPage.module.css";
 
 export default function DetailsPage() {
@@ -7,16 +9,18 @@ export default function DetailsPage() {
       <div className={css.header}>
         <h2 className={css.title}>Maverics</h2>
         <div className={css.reviews}>
-          <svg width="16" height="16">
-            <use href="../../../public/images/icons/sprite.svg#icon-star_yellow"></use>
-          </svg>
+          <button className={css.iconButton}>
+            <svg width="16" height="16">
+              <use href="../../../public/images/icons/sprite.svg#icon-star_grey"></use>
+            </svg>
+          </button>
           <p className={css.descReviews}>4.4(2 Reviews)</p>
           <svg width="16" height="16">
             <use href="../../../public/images/icons/sprite.svg#icon-map"></use>
           </svg>
           <p className={css.descLocation}>Kyiv, Ukraine</p>
         </div>
-        <h2 className={css.amount}>$8000.00</h2>
+        <h2 className={css.amount}>€8000.00</h2>
       </div>
       <div className={css.container}>
         <img
@@ -51,6 +55,7 @@ export default function DetailsPage() {
         <NavLink to="reviews" className={css.link}>
           Reviews
         </NavLink>
+        <DetailsFeatures />
       </div>
     </>
   );
