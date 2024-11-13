@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
-import DetailsFeatures from "../../components/DetailsFeatures/DetailsFeatures";
-
 import css from "./DetailsPage.module.css";
+
+import DetailsFeatures from "../../components/DetailsFeatures/DetailsFeatures";
 
 export default function DetailsPage() {
   return (
@@ -11,34 +11,22 @@ export default function DetailsPage() {
         <div className={css.reviews}>
           <button className={css.iconButton}>
             <svg width="16" height="16">
-              <use href="../../../public/images/icons/sprite.svg#icon-star_grey"></use>
+              <use href="/images/icons/sprite.svg#icon-star_grey"></use>
             </svg>
           </button>
           <p className={css.descReviews}>4.4(2 Reviews)</p>
           <svg width="16" height="16">
-            <use href="../../../public/images/icons/sprite.svg#icon-map"></use>
+            <use href="/images/icons/sprite.svg#icon-map"></use>
           </svg>
           <p className={css.descLocation}>Kyiv, Ukraine</p>
         </div>
         <h2 className={css.amount}>€8000.00</h2>
       </div>
       <div className={css.container}>
-        <img
-          src="../../../public/images/details/InteriorCar-1_desk.jpg"
-          alt="Interior Car"
-        />
-        <img
-          src="../../../public/images/details/InteriorCar-2_desk.jpg"
-          alt="Interior Car"
-        />
-        <img
-          src="../../../public/images/details/InteriorCar-3_desk.jpg"
-          alt="Interior Car"
-        />
-        <img
-          src="../../../public/images/details/InteriorCar-4_desk.jpg"
-          alt="Interior Car"
-        />
+        <img src="/images/details/InteriorCar-1_desk.jpg" alt="Interior Car" />
+        <img src="/images/details/InteriorCar-2_desk.jpg" alt="Interior Car" />
+        <img src="/images/details/InteriorCar-3_desk.jpg" alt="Interior Car" />
+        <img src="/images/details/InteriorCar-4_desk.jpg" alt="Interior Car" />
       </div>
       <p className={css.description}>
         Embrace simplicity and freedom with the Mavericks panel truck, an ideal

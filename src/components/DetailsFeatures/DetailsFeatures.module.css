@@ -1,12 +1,41 @@
-.features {
+.wrapper {
   position: absolute;
   top: 92px;
-  display: flex;
   border-radius: 10px;
-  padding: 44px 80px;
-  width: 631px;
-  height: 588px;
+  padding: 44px 52px;
   width: 631px;
   height: 588px;
   background: #f7f7f7;
+}
+
+.badgesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  gap: 8px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  padding: 12px 18px;
+  height: 48px;
+  background: #f2f4f7;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #101828;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #101828;
 }
