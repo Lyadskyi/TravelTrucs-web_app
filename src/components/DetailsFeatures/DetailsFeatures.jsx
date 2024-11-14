@@ -43,6 +43,7 @@ export default function DetailsFeatures() {
         <p className={css.descForm}>
           Stay connected! We are always ready to help you.
         </p>
+        <button className={css.btn}>Send</button>
       </div>
     </>
   );

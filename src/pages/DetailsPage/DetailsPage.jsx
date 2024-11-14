@@ -1,16 +1,41 @@
+import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import css from "./DetailsPage.module.css";
 
 import DetailsFeatures from "../../components/DetailsFeatures/DetailsFeatures";
 
 export default function DetailsPage() {
+  const [isYellow, setIsYellow] = useState(false);
+
+  useEffect(() => {
+    const storedColor = localStorage.getItem("starColor");
+
+    if (storedColor === "#ffc531") {
+      setIsYellow(true);
+    }
+  }, []);
+
+  const handleClick = () => {
+    setIsYellow((prev) => !prev);
+    if (!isYellow) {
+      localStorage.setItem("starColor", "#ffc531");
+    } else {
+      localStorage.removeItem("starColor");
+    }
+  };
+
   return (
     <>
       <div className={css.header}>
         <h2 className={css.title}>Maverics</h2>
         <div className={css.reviews}>
           <button className={css.iconButton}>
-            <svg width="16" height="16">
+            <svg
+              onClick={handleClick}
+              width="16"
+              height="16"
+              style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}
+            >
               <use href="/images/icons/sprite.svg#icon-star_grey"></use>
             </svg>
           </button>
