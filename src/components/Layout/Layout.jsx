@@ -1,7 +1,7 @@
 import { Suspense } from "react";
-import { TbWorldDownload } from "react-icons/tb";
-
+import Loader from "../Loader/Loader";
 import Navigation from "../Navigation/Navigation";
+
 import css from "./Layout.module.css";
 
 export default function Layout({ children }) {
@@ -11,7 +11,7 @@ export default function Layout({ children }) {
       <Suspense
         fallback={
           <>
-            <TbWorldDownload size={20} /> Wait for the movie search
+            <Loader size={20} /> Wait for the trucks search
           </>
         }
       >
