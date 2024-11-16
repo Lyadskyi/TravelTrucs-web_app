@@ -36,7 +36,7 @@ export default function DetailsPage() {
               height="16"
               style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}
             >
-              <use href="/images/icons/sprite.svg#icon-star_grey"></use>
+              <use href="/images/icons/sprite.svg#icon-star"></use>
             </svg>
           </button>
           <p className={css.descReviews}>4.4(2 Reviews)</p>
