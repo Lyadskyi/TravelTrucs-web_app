@@ -51,34 +51,7 @@
   height: 1px;
   background-color: #dadde1;
 }
-
-.wrapperForm {
-  position: absolute;
-  left: 661px;
-  top: 92px;
-  border: 1px solid #dadde1;
-  border-radius: 10px;
-  padding: 44px;
-  width: 641px;
-  height: 588px;
-}
-
-.titleForm {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #101828;
-}
-
-.descForm {
-  margin-top: 8px;
-  margin-bottom: 24px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #6c717b;
-}
-
+/* 
 .btn {
   border: 2px solid transparent;
   border-radius: 200px;
@@ -93,4 +66,4 @@
   transition: background-color 0.3s ease;
   background-color: #e44848;
   color: #fff;
-}
+} */

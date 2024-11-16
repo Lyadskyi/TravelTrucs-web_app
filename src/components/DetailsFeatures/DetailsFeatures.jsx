@@ -1,3 +1,5 @@
+import BookingForm from "../BookingForm/BookingForm";
+
 import css from "./DetailsFeatures.module.css";
 
 export default function DetailsFeatures() {
@@ -38,13 +40,7 @@ export default function DetailsFeatures() {
         </div>
         <h3 className={css.titleDetails}>Vehicle details</h3>
       </div>
-      <div className={css.wrapperForm}>
-        <h3 className={css.titleForm}>Book your campervan now</h3>
-        <p className={css.descForm}>
-          Stay connected! We are always ready to help you.
-        </p>
-        <button className={css.btn}>Send</button>
-      </div>
+      <BookingForm />
     </>
   );
 }
