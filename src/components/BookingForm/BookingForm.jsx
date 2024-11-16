@@ -22,7 +22,7 @@ const INITIAL_FORM_DATA = {
   comment: "",
 };
 
-const BookingForm = ({ onRegister }) => {
+export default function BookingForm({ onRegister }) {
   const handleSubmit = (data, formActions) => {
     onRegister(data);
     formActions.resetForm();
@@ -82,6 +82,4 @@ const BookingForm = ({ onRegister }) => {
       </Form>
     </Formik>
   );
-};
-
-export default BookingForm;
+}
