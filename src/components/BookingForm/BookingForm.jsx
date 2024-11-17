@@ -7,9 +7,7 @@ const UserBookingSchema = Yup.object().shape({
     .required("User name is required!")
     .min(2, "User name must be at least 2 characters!")
     .max(50, "User name must be less than 50 characters!"),
-  email: Yup.string()
-    .required("Email is required!")
-    .email("Must be a valid email!"),
+  email: Yup.string().required("Email is required!").email("Must be a valid email!"),
   bookingDate: Yup.string()
     .required("Bookihg date is required!")
     .min(8, "Bookihg date must be at least 8 characters!"),
@@ -36,36 +34,15 @@ export default function BookingForm({ onRegister }) {
     >
       <Form className={css.form}>
         <h3 className={css.title}>Book your campervan now</h3>
-        <p className={css.text}>
-          Stay connected! We are always ready to help you.
-        </p>
-        <Field
-          className={css.input}
-          placeholder="Name*"
-          type="text"
-          name="name"
-        />
+        <p className={css.text}>Stay connected! We are always ready to help you.</p>
+        <Field className={css.input} placeholder="Name*" type="text" name="name" />
         <ErrorMessage className={css.error} name="name" component="span" />
 
-        <Field
-          className={css.input}
-          placeholder="Email*"
-          type="email"
-          name="email"
-        />
+        <Field className={css.input} placeholder="Email*" type="email" name="email" />
         <ErrorMessage className={css.error} name="email" component="span" />
 
-        <Field
-          className={css.input}
-          placeholder="Booking date*"
-          type="text"
-          name="bookingDate"
-        />
-        <ErrorMessage
-          className={css.error}
-          name="bookihgDate"
-          component="span"
-        />
+        <Field className={css.input} placeholder="Booking date*" type="text" name="bookingDate" />
+        <ErrorMessage className={css.error} name="bookihgDate" component="span" />
 
         <Field
           as="textarea"

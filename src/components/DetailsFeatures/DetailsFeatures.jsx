@@ -1,5 +1,4 @@
 import BookingForm from "../BookingForm/BookingForm";
-
 import css from "./DetailsFeatures.module.css";
 
 export default function DetailsFeatures() {

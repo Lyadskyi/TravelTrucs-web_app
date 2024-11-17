@@ -1,11 +1,5 @@
 /* Default reset */
 
-body {
-  font-family: sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-}
-
 button {
   cursor: pointer;
 }

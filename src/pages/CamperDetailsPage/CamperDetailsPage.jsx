@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import css from "./DetailsPage.module.css";
+import css from "./CamperDetailsPage.module.css";
 
 import DetailsFeatures from "../../components/DetailsFeatures/DetailsFeatures";
+import DetailsReviews from "../../components/DetailsReviews/DetailsReviews";
 
-export default function DetailsPage() {
+export default function CamperDetailsPage() {
   const [isYellow, setIsYellow] = useState(false);
 
   useEffect(() => {
@@ -54,12 +55,10 @@ export default function DetailsPage() {
         <img src="/images/details/InteriorCar-4_desk.jpg" alt="Interior Car" />
       </div>
       <p className={css.description}>
-        Embrace simplicity and freedom with the Mavericks panel truck, an ideal
-        choice for solo travelers or couples seeking a compact and efficient way
-        to explore the open roads.
-        <br /> This no-frills yet reliable panel truck offers the essentials for
-        a comfortable journey, making it the perfect companion for those who
-        value simplicity and functionality.
+        Embrace simplicity and freedom with the Mavericks panel truck, an ideal choice for solo
+        travelers or couples seeking a compact and efficient way to explore the open roads.
+        <br /> This no-frills yet reliable panel truck offers the essentials for a comfortable
+        journey, making it the perfect companion for those who value simplicity and functionality.
       </p>
       <div className={css.listNavLinks}>
         <NavLink to="features" className={css.link}>
@@ -69,6 +68,7 @@ export default function DetailsPage() {
           Reviews
         </NavLink>
         <DetailsFeatures />
+        <DetailsReviews />
       </div>
     </>
   );

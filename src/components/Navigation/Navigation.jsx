@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import clsx from "clsx";
-
 import css from "./Navigation.module.css";
 
 const getNavLinkClass = ({ isActive }) => {
@@ -11,11 +10,7 @@ export default function Navigation() {
   return (
     <nav className={css.container}>
       <NavLink to="/" className={css.logo}>
-        <img
-          src="/Logo_TravelTrucks.png"
-          alt="logo"
-          className={css.logoImage}
-        />
+        <img src="/Logo_TravelTrucks.png" alt="logo" className={css.logoImage} />
       </NavLink>
       <div className={css.navLinks}>
         <NavLink to="/" className={getNavLinkClass}>
