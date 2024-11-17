@@ -5,19 +5,21 @@
 }
 
 .appBackground {
-  background-image: url("../../../public/images/background/BGHome-TravelTrucks_desk.png");
-  background: rgba(0, 0, 0, 0.2),
-    url("../../../public/images/background/BGHome-TravelTrucks_desk.png");
+  background-image: url("/images/background/BGHome-TravelTrucks_desk.png");
+  background: rgba(0, 0, 0, 0.2), url("/images/background/BGHome-TravelTrucks_desk.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 90vh;
+  margin: 0 -64px;
+}
+
+.appBackground img {
   width: 100%;
+  display: block;
 }
 
 .title {
-  width: 571px;
-  height: 32px;
   font-weight: 600;
   font-size: 48px;
   line-height: 0.67;
@@ -26,14 +28,13 @@
 
 .subtitle {
   font-weight: 600;
-  font-size: 24px;
-  padding-top: 16px;
+  margin-top: 16px;
+  margin-bottom: 40px;
   line-height: 1.33;
   color: #f7f7f7;
 }
 
 .btn {
-  margin-top: 40px;
   border: 2px solid transparent;
   border-radius: 200px;
   width: 173px;

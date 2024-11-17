@@ -48,7 +48,7 @@ export default function CamperDetailsPage() {
         </div>
         <h2 className={css.amount}>€8000.00</h2>
       </div>
-      <div className={css.container}>
+      <div className={css.images}>
         <img src="/images/details/InteriorCar-1_desk.jpg" alt="Interior Car" />
         <img src="/images/details/InteriorCar-2_desk.jpg" alt="Interior Car" />
         <img src="/images/details/InteriorCar-3_desk.jpg" alt="Interior Car" />
@@ -56,9 +56,9 @@ export default function CamperDetailsPage() {
       </div>
       <p className={css.description}>
         Embrace simplicity and freedom with the Mavericks panel truck, an ideal choice for solo
-        travelers or couples seeking a compact and efficient way to explore the open roads.
-        <br /> This no-frills yet reliable panel truck offers the essentials for a comfortable
-        journey, making it the perfect companion for those who value simplicity and functionality.
+        travelers or couples seeking a compact and efficient way to explore the open roads. <br />
+        This no-frills yet reliable panel truck offers the essentials for a comfortable journey,
+        making it the perfect companion for those who value simplicity and functionality.
       </p>
       <div className={css.listNavLinks}>
         <NavLink to="features" className={css.link}>
