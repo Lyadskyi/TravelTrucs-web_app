@@ -1,0 +1,67 @@
+.wrapperReviews {
+  position: absolute;
+  top: 104px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+  border-radius: 60px;
+  width: 60px;
+  height: 60px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  color: #e44848;
+  background: #f2f4f7;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #101828;
+}
+
+.buttons {
+  display: flex;
+  gap: 4px;
+}
+
+.iconButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.descReviews {
+  margin-top: 16px;
+  width: 631px;
+  height: 72px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #475467;
+}

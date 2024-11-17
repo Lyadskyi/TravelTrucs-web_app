@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import css from "./CamperDetailsPage.module.css";
 
-import DetailsFeatures from "../../components/DetailsFeatures/DetailsFeatures";
+// import DetailsFeatures from "../../components/DetailsFeatures/DetailsFeatures";
 import DetailsReviews from "../../components/DetailsReviews/DetailsReviews";
 
 export default function CamperDetailsPage() {
@@ -67,7 +67,7 @@ export default function CamperDetailsPage() {
         <NavLink to="reviews" className={css.link}>
           Reviews
         </NavLink>
-        <DetailsFeatures />
+        {/* <DetailsFeatures /> */}
         <DetailsReviews />
       </div>
     </>

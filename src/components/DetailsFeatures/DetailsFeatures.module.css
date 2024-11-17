@@ -1,4 +1,4 @@
-.wrapperDetails {
+.wrapperFeatures {
   position: absolute;
   top: 92px;
   border-radius: 10px;
@@ -25,7 +25,7 @@
   background: #f2f4f7;
 }
 
-.descDetails {
+.descFeatures {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -33,7 +33,7 @@
   color: #101828;
 }
 
-.titleDetails {
+.titleFeatures {
   position: relative;
   font-weight: 600;
   font-size: 20px;
@@ -41,7 +41,7 @@
   color: #101828;
 }
 
-.titleDetails::after {
+.titleFeatures::after {
   display: block;
   content: "";
   position: absolute;
