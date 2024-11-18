@@ -1,9 +1,10 @@
-import { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { useEffect, useState, Suspense } from "react";
+import { NavLink, Outlet } from "react-router-dom";
 import css from "./CamperDetailsPage.module.css";
 
-// import DetailsFeatures from "../../components/DetailsFeatures/DetailsFeatures";
-import DetailsReviews from "../../components/DetailsReviews/DetailsReviews";
+import DetailsFeatures from "../../components/DetailsFeatures/DetailsFeatures";
+import Loader from "../../components/Loader/Loader";
+// import DetailsReviews from "../../components/DetailsReviews/DetailsReviews";
 
 export default function CamperDetailsPage() {
   const [isYellow, setIsYellow] = useState(false);
@@ -30,13 +31,8 @@ export default function CamperDetailsPage() {
       <div className={css.header}>
         <h2 className={css.title}>Maverics</h2>
         <div className={css.reviews}>
-          <button className={css.iconButton}>
-            <svg
-              onClick={handleClick}
-              width="16"
-              height="16"
-              style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}
-            >
+          <button className={css.iconButton} onClick={handleClick}>
+            <svg width="16" height="16" style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}>
               <use href="/images/icons/sprite.svg#icon-star"></use>
             </svg>
           </button>
@@ -67,8 +63,11 @@ export default function CamperDetailsPage() {
         <NavLink to="reviews" className={css.link}>
           Reviews
         </NavLink>
-        {/* <DetailsFeatures /> */}
-        <DetailsReviews />
+        <Suspense fallback={<Loader />}>
+          <Outlet />
+        </Suspense>
+        <DetailsFeatures />
+        {/* <DetailsReviews /> */}
       </div>
     </>
   );

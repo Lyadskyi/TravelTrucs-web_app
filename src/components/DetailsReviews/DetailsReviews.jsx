@@ -31,57 +31,32 @@ export default function DetailsReviews() {
             <div className={css.rating}>
               <h3 className={css.name}>Alice</h3>
               <div className={css.buttons}>
-                <button className={css.iconButton}>
-                  <svg
-                    onClick={handleClick}
-                    width="16"
-                    height="16"
-                    style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}
-                  >
+                <button className={css.iconButton} onClick={handleClick}>
+                  <svg width="16" height="16" style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}>
                     <use href="/images/icons/sprite.svg#icon-star"></use>
                   </svg>
                 </button>
-                <button className={css.iconButton}>
-                  <svg
-                    onClick={handleClick}
-                    width="16"
-                    height="16"
-                    style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}
-                  >
+                <button className={css.iconButton} onClick={handleClick}>
+                  <svg width="16" height="16" style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}>
                     <use href="/images/icons/sprite.svg#icon-star"></use>
                   </svg>
                 </button>
-                <button className={css.iconButton}>
-                  <svg
-                    onClick={handleClick}
-                    width="16"
-                    height="16"
-                    style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}
-                  >
+                <button className={css.iconButton} onClick={handleClick}>
+                  <svg width="16" height="16" style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}>
                     <use href="/images/icons/sprite.svg#icon-star"></use>
                   </svg>
                 </button>
-                <button className={css.iconButton}>
-                  <svg
-                    onClick={handleClick}
-                    width="16"
-                    height="16"
-                    style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}
-                  >
+                <button className={css.iconButton} onClick={handleClick}>
+                  <svg width="16" height="16" style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}>
                     <use href="/images/icons/sprite.svg#icon-star"></use>
                   </svg>
                 </button>
-                <button className={css.iconButton}>
-                  <svg
-                    onClick={handleClick}
-                    width="16"
-                    height="16"
-                    style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}
-                  >
+                <button className={css.iconButton} onClick={handleClick}>
+                  <svg width="16" height="16" style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}>
                     <use href="/images/icons/sprite.svg#icon-star"></use>
                   </svg>
                 </button>
-              </div>{" "}
+              </div>
             </div>
           </div>
           <p className={css.descReviews}>
@@ -96,53 +71,28 @@ export default function DetailsReviews() {
             <div className={css.rating}>
               <h3 className={css.name}>Bob</h3>
               <div className={css.buttons}>
-                <button className={css.iconButton}>
-                  <svg
-                    onClick={handleClick}
-                    width="16"
-                    height="16"
-                    style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}
-                  >
+                <button className={css.iconButton} onClick={handleClick}>
+                  <svg width="16" height="16" style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}>
                     <use href="/images/icons/sprite.svg#icon-star"></use>
                   </svg>
                 </button>
-                <button className={css.iconButton}>
-                  <svg
-                    onClick={handleClick}
-                    width="16"
-                    height="16"
-                    style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}
-                  >
+                <button className={css.iconButton} onClick={handleClick}>
+                  <svg width="16" height="16" style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}>
                     <use href="/images/icons/sprite.svg#icon-star"></use>
                   </svg>
                 </button>
-                <button className={css.iconButton}>
-                  <svg
-                    onClick={handleClick}
-                    width="16"
-                    height="16"
-                    style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}
-                  >
+                <button className={css.iconButton} onClick={handleClick}>
+                  <svg width="16" height="16" style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}>
                     <use href="/images/icons/sprite.svg#icon-star"></use>
                   </svg>
                 </button>
-                <button className={css.iconButton}>
-                  <svg
-                    onClick={handleClick}
-                    width="16"
-                    height="16"
-                    style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}
-                  >
+                <button className={css.iconButton} onClick={handleClick}>
+                  <svg width="16" height="16" style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}>
                     <use href="/images/icons/sprite.svg#icon-star"></use>
                   </svg>
                 </button>
-                <button className={css.iconButton}>
-                  <svg
-                    onClick={handleClick}
-                    width="16"
-                    height="16"
-                    style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}
-                  >
+                <button className={css.iconButton} onClick={handleClick}>
+                  <svg width="16" height="16" style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}>
                     <use href="/images/icons/sprite.svg#icon-star"></use>
                   </svg>
                 </button>
