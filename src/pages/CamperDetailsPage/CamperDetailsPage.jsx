@@ -2,9 +2,9 @@ import { useEffect, useState, Suspense } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import css from "./CamperDetailsPage.module.css";
 
-import DetailsFeatures from "../../components/DetailsFeatures/DetailsFeatures";
+// import DetailsFeatures from "../../components/DetailsFeatures/DetailsFeatures";
+import DetailsReviews from "../../components/DetailsReviews/DetailsReviews";
 import Loader from "../../components/Loader/Loader";
-// import DetailsReviews from "../../components/DetailsReviews/DetailsReviews";
 
 export default function CamperDetailsPage() {
   const [isYellow, setIsYellow] = useState(false);
@@ -66,8 +66,8 @@ export default function CamperDetailsPage() {
         <Suspense fallback={<Loader />}>
           <Outlet />
         </Suspense>
-        <DetailsFeatures />
-        {/* <DetailsReviews /> */}
+        {/* <DetailsFeatures /> */}
+        <DetailsReviews />
       </div>
     </>
   );

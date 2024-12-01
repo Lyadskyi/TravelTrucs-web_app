@@ -1,26 +1,25 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import BookingForm from "../BookingForm/BookingForm";
+import ButtonStar from "../ButtonStar/ButtonStar";
 import css from "./DetailsReviews.module.css";
 
 export default function DetailsReviews() {
-  const [isYellow, setIsYellow] = useState(false);
+  // useEffect(() => {
+  //   const storedColor = localStorage.getItem("starColor");
 
-  useEffect(() => {
-    const storedColor = localStorage.getItem("starColor");
+  //   if (storedColor === "#ffc531") {
+  //     setIsYellow(true);
+  //   }
+  // }, []);
 
-    if (storedColor === "#ffc531") {
-      setIsYellow(true);
-    }
-  }, []);
-
-  const handleClick = () => {
-    setIsYellow((prev) => !prev);
-    if (!isYellow) {
-      localStorage.setItem("starColor", "#ffc531");
-    } else {
-      localStorage.removeItem("starColor");
-    }
-  };
+  // const handleClick = () => {
+  //   setIsYellow((prev) => !prev);
+  //   if (!isYellow) {
+  //     localStorage.setItem("starColor", "#ffc531");
+  //   } else {
+  //     localStorage.removeItem("starColor");
+  //   }
+  // };
 
   return (
     <>
@@ -30,7 +29,7 @@ export default function DetailsReviews() {
             <div className={css.avatar}>A</div>
             <div className={css.rating}>
               <h3 className={css.name}>Alice</h3>
-              <div className={css.buttons}>
+              {/* <div className={css.buttons}>
                 <button className={css.iconButton} onClick={handleClick}>
                   <svg width="16" height="16" style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}>
                     <use href="/images/icons/sprite.svg#icon-star"></use>
@@ -56,7 +55,12 @@ export default function DetailsReviews() {
                     <use href="/images/icons/sprite.svg#icon-star"></use>
                   </svg>
                 </button>
-              </div>
+              </div> */}
+              <ButtonStar />
+              <ButtonStar />
+              <ButtonStar />
+              <ButtonStar />
+              <ButtonStar />
             </div>
           </div>
           <p className={css.descReviews}>
@@ -70,7 +74,7 @@ export default function DetailsReviews() {
             <div className={css.avatar}>B</div>
             <div className={css.rating}>
               <h3 className={css.name}>Bob</h3>
-              <div className={css.buttons}>
+              {/* <div className={css.buttons}>
                 <button className={css.iconButton} onClick={handleClick}>
                   <svg width="16" height="16" style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}>
                     <use href="/images/icons/sprite.svg#icon-star"></use>
@@ -96,7 +100,12 @@ export default function DetailsReviews() {
                     <use href="/images/icons/sprite.svg#icon-star"></use>
                   </svg>
                 </button>
-              </div>
+              </div> */}
+              <ButtonStar />
+              <ButtonStar />
+              <ButtonStar />
+              <ButtonStar />
+              <ButtonStar />
             </div>
           </div>
           <p className={css.descReviews}>
