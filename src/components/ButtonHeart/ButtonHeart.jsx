@@ -1,8 +1,13 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import css from "./ButtonHeart.module.css";
 
 export default function ButtonHeart() {
-  const [isRed, setIsRed] = useState(false);
+  const [isClicked, setIsClicked] = useState(false);
+
+  // useEffect(() => {});
+  const handleClick = () => {
+    setIsClicked(!isClicked);
+  };
 
   return (
     <button className={css.iconButton}>
