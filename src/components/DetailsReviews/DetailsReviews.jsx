@@ -1,5 +1,4 @@
 import BookingForm from "../BookingForm/BookingForm";
-import ButtonHeart from "../ButtonHeart/ButtonHeart";
 import ButtonStar from "../ButtonStar/ButtonStar";
 import css from "./DetailsReviews.module.css";
 
@@ -18,7 +17,6 @@ export default function DetailsReviews() {
                 <ButtonStar />
                 <ButtonStar />
                 <ButtonStar />
-                <ButtonHeart />
               </div>
             </div>
           </div>

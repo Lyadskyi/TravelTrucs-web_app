@@ -1,3 +1,8 @@
+.containerCards {
+  display: flex;
+  gap: 64px;
+}
+
 .location {
   margin-top: 47px;
 }
@@ -53,7 +58,6 @@
   position: absolute;
   left: 64px;
   top: 616px;
-  /* top: 816px; */
   margin-top: 40px;
   border: 2px solid transparent;
   border-radius: 200px;
@@ -67,7 +71,94 @@
   color: #fff;
 }
 
-button:hover {
+.btn:hover {
+  border: none;
+  background-color: #d84343;
+}
+
+.boxCard {
+  display: flex;
+  border: 1px solid #dadde1;
+  border-radius: 20px;
+  margin-top: 47px;
+  padding: 24px;
+  width: 100%;
+  height: 368px;
+}
+
+.image {
+  margin-right: 24px;
+}
+
+/* .textContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  color: #101828;
+}
+
+.amount {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  color: #101828;
+}
+
+.reviews {
+  display: flex;
+}
+
+.iconButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.descReviews {
+  margin-left: 4px;
+  margin-right: 16px;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #101828;
+}
+
+.descLocation {
+  margin-left: 4px;
+  line-height: 1.5;
+  color: #101828;
+}
+
+.text {
+  margin: 24px 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #475467;
+}
+
+.btnMore {
+  border: 2px solid transparent;
+  border-radius: 200px;
+  width: 166px;
+  height: 56px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  transition: background-color 0.3s ease;
+  background-color: #e44848;
+  color: #fff;
+}
+
+.btnMore:hover {
   border: none;
   background-color: #d84343;
 }
