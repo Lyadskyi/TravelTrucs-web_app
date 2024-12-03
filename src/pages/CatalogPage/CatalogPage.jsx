@@ -9,7 +9,10 @@ export default function CatalogPage() {
       </div>
       <h3 className={css.filters}>Filters</h3>
       <div className={css.equipment}>
-        <h2 className={css.titleEquipment}>Vehicle equipment</h2>
+        <h3 className={css.titleEquipment}>Vehicle equipment</h3>
+      </div>
+      <div className={css.type}>
+        <h3 className={css.titleEquipment}>Vehicle type</h3>
       </div>
       <button className={css.btn}>Search</button>
     </>

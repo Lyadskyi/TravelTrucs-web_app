@@ -1,7 +1,5 @@
 .location {
-  position: absolute;
-  left: 64px;
-  top: 120px;
+  margin-top: 47px;
 }
 
 .titleLocation {
@@ -21,26 +19,34 @@
 }
 
 .filters {
-  position: absolute;
-  left: 64px;
-  top: 248px;
+  margin-top: 40px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #475467;
 }
 
-.equipment {
-  position: absolute;
-  left: 64px;
-  top: 304px;
-}
-
 .titleEquipment {
+  display: inline-flex;
+  position: relative;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
+  margin-top: 32px;
+  padding-bottom: 24px;
+  text-decoration: none;
   color: #101828;
+}
+
+.titleEquipment::after {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 360px;
+  height: 1px;
+  background-color: #dadde1;
 }
 
 .btn {
