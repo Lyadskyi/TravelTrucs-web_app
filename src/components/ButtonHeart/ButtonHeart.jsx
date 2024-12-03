@@ -1,17 +1,20 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import css from "./ButtonHeart.module.css";
 
 export default function ButtonHeart() {
   const [isClicked, setIsClicked] = useState(false);
 
-  // useEffect(() => {});
   const handleClick = () => {
     setIsClicked(!isClicked);
   };
 
   return (
-    <button className={css.iconButton}>
-      <svg width="16" height="16">
+    <button
+      className={`${css.heartButton} ${isClicked ? "active" : ""}`}
+      onClick={handleClick}
+      aria-label="Like"
+    >
+      <svg width="24" height="24" fill={isClicked ? "#e44848" : "#101828"}>
         <use href="/images/icons/sprite.svg#icon-heart"></use>
       </svg>
     </button>
