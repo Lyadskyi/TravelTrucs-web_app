@@ -56,7 +56,7 @@ export default function CamperDetailsPage() {
         This no-frills yet reliable panel truck offers the essentials for a comfortable journey,
         making it the perfect companion for those who value simplicity and functionality.
       </p>
-      <div className={css.listNavLinks}>
+      <nav className={css.listNavLinks}>
         <NavLink to="features" className={css.link}>
           Features
         </NavLink>
@@ -68,7 +68,7 @@ export default function CamperDetailsPage() {
         </Suspense>
         <DetailsFeatures />
         {/* <DetailsReviews /> */}
-      </div>
+      </nav>
     </>
   );
 }
