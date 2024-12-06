@@ -1,5 +1,6 @@
 import { useEffect, useState, Suspense } from "react";
 import { NavLink, Outlet } from "react-router-dom";
+import clsx from "clsx";
 import css from "./CamperDetailsPage.module.css";
 
 import DetailsFeatures from "../../components/DetailsFeatures/DetailsFeatures";
@@ -24,6 +25,10 @@ export default function CamperDetailsPage() {
     } else {
       localStorage.removeItem("starColor");
     }
+  };
+
+  const buildLinkClass = ({ isActive }) => {
+    return clsx(css.link, isActive && css.active);
   };
 
   return (
@@ -56,11 +61,11 @@ export default function CamperDetailsPage() {
         This no-frills yet reliable panel truck offers the essentials for a comfortable journey,
         making it the perfect companion for those who value simplicity and functionality.
       </p>
-      <nav className={css.listNavLinks}>
-        <NavLink to="features" className={css.link}>
+      <nav className={css.navigation}>
+        <NavLink to="features" className={buildLinkClass}>
           Features
         </NavLink>
-        <NavLink to="reviews" className={css.link}>
+        <NavLink to="reviews" className={buildLinkClass}>
           Reviews
         </NavLink>
         <Suspense fallback={<Loader />}>
