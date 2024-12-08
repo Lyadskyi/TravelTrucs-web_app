@@ -54,11 +54,38 @@
   background-color: #dadde1;
 }
 
+.filtersContainer {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  gap: 12px;
+}
+
+.filtersLabels {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 32px;
+  width: 112px;
+  height: 96px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #dadde1;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
 .btn {
   position: absolute;
   left: 64px;
   top: 616px;
-  margin-top: 40px;
+  margin-top: 100px;
   border: 2px solid transparent;
   border-radius: 200px;
   width: 166px;
