@@ -58,8 +58,16 @@
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+
+  width: 360px;
   margin-top: 24px;
   gap: 12px;
+}
+
+.visuallyHidden {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .filtersLabels {
@@ -68,12 +76,21 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-  padding: 16px 32px;
+  font-size: 16px;
   width: 112px;
   height: 96px;
   text-align: center;
+  letter-spacing: -0.01em;
   border-radius: 10px;
   border: 1px solid #dadde1;
+}
+
+.filtersLabels:hover {
+  border-color: #fac2c2;
+}
+
+input[type="radio"]:checked + .filtersLabels {
+  border-color: #e44848;
 }
 
 .icon {
@@ -82,10 +99,7 @@
 }
 
 .btn {
-  position: absolute;
-  left: 64px;
-  top: 616px;
-  margin-top: 100px;
+  margin-top: 40px;
   border: 2px solid transparent;
   border-radius: 200px;
   width: 166px;

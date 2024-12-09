@@ -105,8 +105,14 @@ export default function CatalogPage() {
           <h3 className={css.titleEquipment}>Vehicle type</h3>
           <ul className={css.filtersContainer}>
             <li>
-              <input name="form" type="radio" id="1" value="Van"></input>
-              <label className={css.filtersLabels} htmlFor="1">
+              <input
+                type="radio"
+                name="vehicleType"
+                id="3"
+                value="Van"
+                className={css.visuallyHidden}
+              />
+              <label className={css.filtersLabels} htmlFor="3">
                 <svg
                   className={css.icon}
                   color="currentColor"
@@ -116,11 +122,18 @@ export default function CatalogPage() {
                 >
                   <use href="/images/icons/sprite.svg#icon-grid_1x2"></use>
                 </svg>
-                Alcove
+                Van
               </label>
             </li>
+
             <li>
-              <input name="form" type="radio" id="2" value="Van"></input>
+              <input
+                type="radio"
+                name="vehicleType"
+                id="2"
+                value="Fully Integrated"
+                className={css.visuallyHidden}
+              />
               <label className={css.filtersLabels} htmlFor="2">
                 <svg
                   className={css.icon}
@@ -135,8 +148,14 @@ export default function CatalogPage() {
               </label>
             </li>
             <li>
-              <input name="form" type="radio" id="3" value="Van"></input>
-              <label className={css.filtersLabels} htmlFor="3">
+              <input
+                type="radio"
+                name="vehicleType"
+                id="1"
+                value="Alcove"
+                className={css.visuallyHidden}
+              />
+              <label className={css.filtersLabels} htmlFor="1">
                 <svg
                   className={css.icon}
                   color="currentColor"
@@ -146,7 +165,7 @@ export default function CatalogPage() {
                 >
                   <use href="/images/icons/sprite.svg#icon-grid_3x3"></use>
                 </svg>
-                Van
+                Alcove
               </label>
             </li>
           </ul>
