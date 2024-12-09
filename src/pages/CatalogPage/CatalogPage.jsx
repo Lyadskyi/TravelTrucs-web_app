@@ -34,70 +34,235 @@ export default function CatalogPage() {
           <h3 className={css.titleEquipment}>Vehicle equipment</h3>
           <ul className={css.filtersContainer}>
             <li className={css.filtersCheckBoxes}>
-              <label>
-                <input type="checkbox" name="terms" />
+              <input
+                className={css.visuallyHidden}
+                type="checkbox"
+                name="vehicleEquipment"
+                id="1"
+                value="AC"
+              />
+              <label className={css.filtersLabels} htmlFor="1">
+                <svg
+                  className={css.icon}
+                  color="currentColor"
+                  width="16"
+                  height="16"
+                  aria-hidden="true"
+                >
+                  <use href="/images/icons/sprite.svg#icon-AC"></use>
+                </svg>
+                AC
               </label>
-              <button type="button">AC</button>
             </li>
             <li className={css.filtersCheckBoxes}>
-              <label>
-                <input type="checkbox" name="terms" />
+              <input
+                className={css.visuallyHidden}
+                type="checkbox"
+                name="vehicleEquipment"
+                id="2"
+                value="Automatic"
+              />
+              <label className={css.filtersLabels} htmlFor="2">
+                <svg
+                  className={css.icon}
+                  color="currentColor"
+                  width="16"
+                  height="16"
+                  aria-hidden="true"
+                >
+                  <use href="/images/icons/sprite.svg#icon-automatic"></use>
+                </svg>
+                Automatic
               </label>
-              <button type="button">Automatic</button>
             </li>
             <li className={css.filtersCheckBoxes}>
-              <label>
-                <input type="checkbox" name="terms" />
+              <input
+                className={css.visuallyHidden}
+                type="checkbox"
+                name="vehicleEquipment"
+                id="3"
+                value="Bathroom"
+              />
+              <label className={css.filtersLabels} htmlFor="3">
+                <svg
+                  className={css.icon}
+                  color="currentColor"
+                  width="16"
+                  height="16"
+                  aria-hidden="true"
+                >
+                  <use href="/images/icons/sprite.svg#icon-bathroom"></use>
+                </svg>
+                Bathroom
               </label>
-              <button type="button">Bathroom</button>
             </li>
             <li className={css.filtersCheckBoxes}>
-              <label>
-                <input type="checkbox" name="terms" />
+              <input
+                className={css.visuallyHidden}
+                type="checkbox"
+                name="vehicleEquipment"
+                id="4"
+                value="Gas"
+              />
+              <label className={css.filtersLabels} htmlFor="4">
+                <svg
+                  className={css.icon}
+                  color="currentColor"
+                  width="16"
+                  height="16"
+                  aria-hidden="true"
+                >
+                  <use href="/images/icons/sprite.svg#icon-hugeicons_gas-stove"></use>
+                </svg>
+                Gas
               </label>
-              <button type="button">Gas</button>
             </li>
             <li className={css.filtersCheckBoxes}>
-              <label>
-                <input type="checkbox" name="terms" />
+              <input
+                className={css.visuallyHidden}
+                type="checkbox"
+                name="vehicleEquipment"
+                id="5"
+                value="Kitchen"
+              />
+              <label className={css.filtersLabels} htmlFor="5">
+                <svg
+                  className={css.icon}
+                  color="currentColor"
+                  width="16"
+                  height="16"
+                  aria-hidden="true"
+                >
+                  <use href="/images/icons/sprite.svg#icon-kitchen"></use>
+                </svg>
+                Kitchen
               </label>
-              <button type="button">Kitchen</button>
             </li>
             <li className={css.filtersCheckBoxes}>
-              <label>
-                <input type="checkbox" name="terms" />
+              <input
+                className={css.visuallyHidden}
+                type="checkbox"
+                name="vehicleEquipment"
+                id="6"
+                value="Microwave"
+              />
+              <label className={css.filtersLabels} htmlFor="6">
+                <svg
+                  className={css.icon}
+                  color="currentColor"
+                  width="16"
+                  height="16"
+                  aria-hidden="true"
+                >
+                  <use href="/images/icons/sprite.svg#icon-lucide_microwave"></use>
+                </svg>
+                Microwave
               </label>
-              <button type="button">Microwave</button>
             </li>
             <li className={css.filtersCheckBoxes}>
-              <label>
-                <input type="checkbox" name="terms" />
+              <input
+                className={css.visuallyHidden}
+                type="checkbox"
+                name="vehicleEquipment"
+                id="7"
+                value="Petrol"
+              />
+              <label className={css.filtersLabels} htmlFor="7">
+                <svg
+                  className={css.icon}
+                  color="currentColor"
+                  width="16"
+                  height="16"
+                  aria-hidden="true"
+                >
+                  <use href="/images/icons/sprite.svg#icon-petrol"></use>
+                </svg>
+                Petrol
               </label>
-              <button type="button">Petrol</button>
             </li>
             <li className={css.filtersCheckBoxes}>
-              <label>
-                <input type="checkbox" name="terms" />
+              <input
+                className={css.visuallyHidden}
+                type="checkbox"
+                name="vehicleEquipment"
+                id="8"
+                value="Radio"
+              />
+              <label className={css.filtersLabels} htmlFor="8">
+                <svg
+                  className={css.icon}
+                  color="currentColor"
+                  width="16"
+                  height="16"
+                  aria-hidden="true"
+                >
+                  <use href="/images/icons/sprite.svg#icon-radio"></use>
+                </svg>
+                Radio
               </label>
-              <button type="button">Radio</button>
             </li>
             <li className={css.filtersCheckBoxes}>
-              <label>
-                <input type="checkbox" name="terms" />
+              <input
+                className={css.visuallyHidden}
+                type="checkbox"
+                name="vehicleEquipment"
+                id="9"
+                value="Refrigerator"
+              />
+              <label className={css.filtersLabels} htmlFor="9">
+                <svg
+                  className={css.icon}
+                  color="currentColor"
+                  width="16"
+                  height="16"
+                  aria-hidden="true"
+                >
+                  <use href="/images/icons/sprite.svg#icon-refrigerator"></use>
+                </svg>
+                Refrigerator
               </label>
-              <button type="button">Refrigerator</button>
             </li>
             <li className={css.filtersCheckBoxes}>
-              <label>
-                <input type="checkbox" name="terms" />
+              <input
+                className={css.visuallyHidden}
+                type="checkbox"
+                name="vehicleEquipment"
+                id="10"
+                value="TV"
+              />
+              <label className={css.filtersLabels} htmlFor="10">
+                <svg
+                  className={css.icon}
+                  color="currentColor"
+                  width="16"
+                  height="16"
+                  aria-hidden="true"
+                >
+                  <use href="/images/icons/sprite.svg#icon-tv"></use>
+                </svg>
+                TV
               </label>
-              <button type="button">TV</button>
             </li>
             <li className={css.filtersCheckBoxes}>
-              <label>
-                <input type="checkbox" name="terms" />
+              <input
+                className={css.visuallyHidden}
+                type="checkbox"
+                name="vehicleEquipment"
+                id="11"
+                value="Water"
+              />
+              <label className={css.filtersLabels} htmlFor="11">
+                <svg
+                  className={css.icon}
+                  color="currentColor"
+                  width="16"
+                  height="16"
+                  aria-hidden="true"
+                >
+                  <use href="/images/icons/sprite.svg#icon-water"></use>
+                </svg>
+                Water
               </label>
-              <button type="button">Water</button>
             </li>
           </ul>
         </div>
@@ -106,13 +271,13 @@ export default function CatalogPage() {
           <ul className={css.filtersContainer}>
             <li>
               <input
+                className={css.visuallyHidden}
                 type="radio"
                 name="vehicleType"
-                id="3"
+                id="12"
                 value="Van"
-                className={css.visuallyHidden}
               />
-              <label className={css.filtersLabels} htmlFor="3">
+              <label className={css.filtersLabels} htmlFor="12">
                 <svg
                   className={css.icon}
                   color="currentColor"
@@ -125,16 +290,15 @@ export default function CatalogPage() {
                 Van
               </label>
             </li>
-
             <li>
               <input
+                className={css.visuallyHidden}
                 type="radio"
                 name="vehicleType"
-                id="2"
+                id="13"
                 value="Fully Integrated"
-                className={css.visuallyHidden}
               />
-              <label className={css.filtersLabels} htmlFor="2">
+              <label className={css.filtersLabels} htmlFor="13">
                 <svg
                   className={css.icon}
                   color="currentColor"
@@ -149,13 +313,13 @@ export default function CatalogPage() {
             </li>
             <li>
               <input
+                className={css.visuallyHidden}
                 type="radio"
                 name="vehicleType"
-                id="1"
+                id="14"
                 value="Alcove"
-                className={css.visuallyHidden}
               />
-              <label className={css.filtersLabels} htmlFor="1">
+              <label className={css.filtersLabels} htmlFor="14">
                 <svg
                   className={css.icon}
                   color="currentColor"

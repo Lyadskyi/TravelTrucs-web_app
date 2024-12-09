@@ -58,7 +58,6 @@
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-
   width: 360px;
   margin-top: 24px;
   gap: 12px;
@@ -96,6 +95,10 @@ input[type="radio"]:checked + .filtersLabels {
 .icon {
   width: 32px;
   height: 32px;
+}
+
+input:checked + .filtersLabels {
+  border-color: #e44848;
 }
 
 .btn {
