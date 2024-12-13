@@ -27,7 +27,13 @@ export default function CatalogPage() {
       <div className="sideBar">
         <div className={css.location}>
           <h3 className={css.titleLocation}>Location</h3>
-          <div className={css.geoLocation}>Kyiv, Ukraine</div>
+
+          <div className={css.geoLocation}>
+            <svg width="16" height="16">
+              <use href="/images/icons/sprite.svg#icon-map"></use>
+            </svg>
+            Kyiv, Ukraine
+          </div>
         </div>
         <h3 className={css.filters}>Filters</h3>
         <div className={css.equipment}>
@@ -49,7 +55,7 @@ export default function CatalogPage() {
                   height="16"
                   aria-hidden="true"
                 >
-                  <use href="/images/icons/sprite.svg#icon-AC"></use>
+                  <use href="images/icons/sprite.svg#icon-AC"></use>
                 </svg>
                 AC
               </label>
@@ -70,7 +76,7 @@ export default function CatalogPage() {
                   height="16"
                   aria-hidden="true"
                 >
-                  <use href="/images/icons/sprite.svg#icon-automatic"></use>
+                  <use href="images/icons/sprite.svg#icon-automatic"></use>
                 </svg>
                 Automatic
               </label>
@@ -91,7 +97,7 @@ export default function CatalogPage() {
                   height="16"
                   aria-hidden="true"
                 >
-                  <use href="/images/icons/sprite.svg#icon-bathroom"></use>
+                  <use href="images/icons/sprite.svg#icon-bathroom"></use>
                 </svg>
                 Bathroom
               </label>
@@ -112,7 +118,7 @@ export default function CatalogPage() {
                   height="16"
                   aria-hidden="true"
                 >
-                  <use href="/images/icons/sprite.svg#icon-hugeicons_gas-stove"></use>
+                  <use href="/images/icons/collection.svg#icon-hugeicons_gas-stove"></use>
                 </svg>
                 Gas
               </label>
@@ -123,7 +129,7 @@ export default function CatalogPage() {
                 type="checkbox"
                 name="vehicleEquipment"
                 id="5"
-                value="Kitchen"
+                value="Cup hot"
               />
               <label className={css.filtersLabels} htmlFor="5">
                 <svg
@@ -133,7 +139,7 @@ export default function CatalogPage() {
                   height="16"
                   aria-hidden="true"
                 >
-                  <use href="/images/icons/sprite.svg#icon-kitchen"></use>
+                  <use href="images/icons/collection.svg#icon-cup-hot"></use>
                 </svg>
                 Kitchen
               </label>
@@ -154,7 +160,7 @@ export default function CatalogPage() {
                   height="16"
                   aria-hidden="true"
                 >
-                  <use href="/images/icons/sprite.svg#icon-lucide_microwave"></use>
+                  <use href="/images/icons/collection.svg#icon-lucide_microwave"></use>
                 </svg>
                 Microwave
               </label>
@@ -175,7 +181,7 @@ export default function CatalogPage() {
                   height="16"
                   aria-hidden="true"
                 >
-                  <use href="/images/icons/sprite.svg#icon-petrol"></use>
+                  <use href="/images/icons/collection.svg#icon-fuel-pump"></use>
                 </svg>
                 Petrol
               </label>
@@ -196,7 +202,7 @@ export default function CatalogPage() {
                   height="16"
                   aria-hidden="true"
                 >
-                  <use href="/images/icons/sprite.svg#icon-radio"></use>
+                  <use href="/images/icons/collection.svg#icon-ui-radios"></use>
                 </svg>
                 Radio
               </label>
@@ -217,7 +223,7 @@ export default function CatalogPage() {
                   height="16"
                   aria-hidden="true"
                 >
-                  <use href="/images/icons/sprite.svg#icon-refrigerator"></use>
+                  <use href="/public/images/icons/collection.svg#icon-solar_fridge-outline"></use>
                 </svg>
                 Refrigerator
               </label>
@@ -238,7 +244,7 @@ export default function CatalogPage() {
                   height="16"
                   aria-hidden="true"
                 >
-                  <use href="/images/icons/sprite.svg#icon-tv"></use>
+                  <use href="/images/icons/collection.svg#icon-tv"></use>
                 </svg>
                 TV
               </label>
@@ -259,7 +265,7 @@ export default function CatalogPage() {
                   height="16"
                   aria-hidden="true"
                 >
-                  <use href="/images/icons/sprite.svg#icon-water"></use>
+                  <use href="/images/icons/collection.svg#icon-ion_water-outline"></use>
                 </svg>
                 Water
               </label>
@@ -285,7 +291,7 @@ export default function CatalogPage() {
                   height="16"
                   aria-hidden="true"
                 >
-                  <use href="/images/icons/sprite.svg#icon-grid_1x2"></use>
+                  <use href="/images/icons/collection.svg#icon-bi_grid-1x2"></use>
                 </svg>
                 Van
               </label>
@@ -306,7 +312,7 @@ export default function CatalogPage() {
                   height="16"
                   aria-hidden="true"
                 >
-                  <use href="/images/icons/sprite.svg#icon-grid_2x2"></use>
+                  <use href="/images/icons/collection.svg#icon-bi_grid"></use>
                 </svg>
                 Fully Integrated
               </label>
@@ -327,7 +333,7 @@ export default function CatalogPage() {
                   height="16"
                   aria-hidden="true"
                 >
-                  <use href="/images/icons/sprite.svg#icon-grid_3x3"></use>
+                  <use href="/images/icons/collection.svg#icon-grid-3x3"></use>
                 </svg>
                 Alcove
               </label>
@@ -345,7 +351,7 @@ export default function CatalogPage() {
           <div className={css.reviews}>
             <button className={css.iconButton} onClick={handleClick}>
               <svg width="16" height="16" style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}>
-                <use href="/images/icons/sprite.svg#icon-star"></use>
+                <use href="/images/icons/collection.svg#icon-star"></use>
               </svg>
             </button>
             <p className={css.descReviews}>4.4(2 Reviews)</p>
