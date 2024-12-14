@@ -20,19 +20,19 @@ export default function DetailsFeatures() {
           </div>
           <div className={css.list}>
             <svg width="16" height="16">
-              <use href="/images/icons/collection.svg#icon-petrol"></use>
+              <use href="/images/icons/collection.svg#icon-fuel-pump"></use>
             </svg>
             <p className={css.descFeatures}>Petrol</p>
           </div>
           <div className={css.list}>
             <svg width="16" height="16">
-              <use href="/images/icons/collection.svg#icon-kitchen"></use>
+              <use href="/images/icons/collection.svg#icon-cup-hot"></use>
             </svg>
             <p className={css.descFeatures}>Kitchen</p>
           </div>
           <div className={css.list}>
             <svg width="16" height="16">
-              <use href="/images/icons/collection.svg#icon-radio"></use>
+              <use href="/images/icons/collection.svg#icon-ui-radios"></use>
             </svg>
             <p className={css.descFeatures}>Radio</p>
           </div>
