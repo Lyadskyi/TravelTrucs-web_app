@@ -8,31 +8,31 @@ export default function DetailsFeatures() {
         <div className={css.badgesContainer}>
           <div className={css.list}>
             <svg width="16" height="16">
-              <use href="/images/icons/sprite.svg#icon-automatic"></use>
+              <use href="/images/icons/collection.svg#icon-automatic"></use>
             </svg>
             <p className={css.descFeatures}>Automatic</p>
           </div>
           <div className={css.list}>
             <svg width="16" height="16">
-              <use href="/images/icons/sprite.svg#icon-AC"></use>
+              <use href="/images/icons/collection.svg#icon-AC"></use>
             </svg>
             <p className={css.descFeatures}>AC</p>
           </div>
           <div className={css.list}>
             <svg width="16" height="16">
-              <use href="/images/icons/sprite.svg#icon-petrol"></use>
+              <use href="/images/icons/collection.svg#icon-petrol"></use>
             </svg>
             <p className={css.descFeatures}>Petrol</p>
           </div>
           <div className={css.list}>
             <svg width="16" height="16">
-              <use href="/images/icons/sprite.svg#icon-kitchen"></use>
+              <use href="/images/icons/collection.svg#icon-kitchen"></use>
             </svg>
             <p className={css.descFeatures}>Kitchen</p>
           </div>
           <div className={css.list}>
             <svg width="16" height="16">
-              <use href="/images/icons/sprite.svg#icon-radio"></use>
+              <use href="/images/icons/collection.svg#icon-radio"></use>
             </svg>
             <p className={css.descFeatures}>Radio</p>
           </div>

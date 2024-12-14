@@ -38,12 +38,12 @@ export default function CamperDetailsPage() {
         <div className={css.reviews}>
           <button className={css.iconButton} onClick={handleClick}>
             <svg width="16" height="16" style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}>
-              <use href="/images/icons/sprite.svg#icon-star"></use>
+              <use href="/images/icons/collection.svg#icon-star"></use>
             </svg>
           </button>
           <p className={css.descReviews}>4.4(2 Reviews)</p>
           <svg width="16" height="16">
-            <use href="/images/icons/sprite.svg#icon-map"></use>
+            <use href="/images/icons/collection.svg#icon-map"></use>
           </svg>
           <p className={css.descLocation}>Kyiv, Ukraine</p>
         </div>

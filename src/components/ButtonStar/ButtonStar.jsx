@@ -24,7 +24,7 @@ export default function ButtonStar() {
   return (
     <button className={css.iconButton} onClick={handleClick}>
       <svg width="16" height="16" style={{ fill: isYellow ? "#ffc531" : "#f2f4f7" }}>
-        <use href="/images/icons/sprite.svg#icon-star"></use>
+        <use href="/images/icons/collection.svg#icon-star"></use>
       </svg>
     </button>
   );

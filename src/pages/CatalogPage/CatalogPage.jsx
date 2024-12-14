@@ -30,7 +30,7 @@ export default function CatalogPage() {
 
           <div className={css.geoLocation}>
             <svg width="16" height="16">
-              <use href="/images/icons/sprite.svg#icon-map"></use>
+              <use href="/images/icons/collection.svg#icon-map"></use>
             </svg>
             Kyiv, Ukraine
           </div>
@@ -55,7 +55,7 @@ export default function CatalogPage() {
                   height="16"
                   aria-hidden="true"
                 >
-                  <use href="images/icons/sprite.svg#icon-AC"></use>
+                  <use href="images/icons/collection.svg#icon-AC"></use>
                 </svg>
                 AC
               </label>
@@ -76,7 +76,7 @@ export default function CatalogPage() {
                   height="16"
                   aria-hidden="true"
                 >
-                  <use href="images/icons/sprite.svg#icon-automatic"></use>
+                  <use href="images/icons/collection.svg#icon-automatic"></use>
                 </svg>
                 Automatic
               </label>
@@ -97,7 +97,7 @@ export default function CatalogPage() {
                   height="16"
                   aria-hidden="true"
                 >
-                  <use href="images/icons/sprite.svg#icon-bathroom"></use>
+                  <use href="images/icons/collection.svg#icon-bathroom"></use>
                 </svg>
                 Bathroom
               </label>
@@ -356,7 +356,7 @@ export default function CatalogPage() {
             </button>
             <p className={css.descReviews}>4.4(2 Reviews)</p>
             <svg width="16" height="16">
-              <use href="/images/icons/sprite.svg#icon-map"></use>
+              <use href="/images/icons/collection.svg#icon-map"></use>
             </svg>
             <p className={css.descLocation}>Kyiv, Ukraine</p>
           </div>

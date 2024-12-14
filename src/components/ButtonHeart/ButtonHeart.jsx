@@ -15,7 +15,7 @@ export default function ButtonHeart() {
       aria-label="Like"
     >
       <svg width="24" height="24" fill={isClicked ? "#e44848" : "#101828"}>
-        <use href="/images/icons/sprite.svg#icon-heart"></use>
+        <use href="/images/icons/collection.svg#icon-heart"></use>
       </svg>
     </button>
   );
